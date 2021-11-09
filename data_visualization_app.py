@@ -1,5 +1,4 @@
 import streamlit as st
-import plotly_express as px
 import pandas as pd
 import dash
 import dash_core_components as dcc
