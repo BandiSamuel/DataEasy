@@ -29,13 +29,5 @@ if uploaded_file is not None:
 
 global numeric_columns
 global non_numeric_columns
-try:
-    st.write(df)
-    numeric_columns = list(df.select_dtypes(['float', 'int']).columns)
-    non_numeric_columns = list(df.select_dtypes(['object']).columns)
-    non_numeric_columns.append(None)
-    print(non_numeric_columns)
-except Exception as e:
-    print(e)
-    st.write("Please upload file to the application.")
+st.write("Please upload file to the application.")
 
