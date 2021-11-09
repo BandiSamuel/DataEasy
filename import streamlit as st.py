@@ -1,5 +1,4 @@
-pip install --upgrade pip
-pip install --upgrade Pillow
+
 import streamlit as st
 import numpy as np
 from PIL import Image
