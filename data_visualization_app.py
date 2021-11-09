@@ -1,9 +1,4 @@
-#wget the get-pip.py file
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-#Run the file with python2 get-pip.py
-python get-pip
-#Install xlrd==1.1.0
-python -m pip2 install --user xlrd==1.1.0
+
 import streamlit as st
 
 import pandas as pd
