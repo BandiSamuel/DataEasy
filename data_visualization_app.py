@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+
 
 # configuration
 st.set_option('deprecation.showfileUploaderEncoding', False)
